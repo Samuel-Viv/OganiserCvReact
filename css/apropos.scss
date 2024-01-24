@@ -1,0 +1,92 @@
+
+$gris: #444;
+$blanc: #eee;
+$black: #000000;
+$bleu: #0d6efd;
+$titres: #1e1e1e;
+
+section {
+    .accueil {
+      z-index: -1;
+      background-image: url(../image/page-accueil.jpg);
+      background-position: 35% 75%;
+      background-size: 350% cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+  
+      color: $blanc;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .opacity {
+      position: absolute;
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      width: 100%;
+      height: 100%;
+    }
+    h1,
+    h2,
+    a {
+      z-index: 4;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    a {
+      margin: 30px;
+    }
+  }
+
+  .container {
+    .carte {
+      box-shadow: 0px 0px 10px #1e1e1e1c;
+      margin-left: -25px;
+      margin-right: -25px;
+      background-color: white;
+      .apropos_presentation {
+        .titre_apropos {
+          border-bottom: #0d6efd solid 1px;
+          margin: 25px 25px 10px 25px;
+          h3 {
+            font-weight: 600;
+          }
+        }
+  
+        .paragraphe {
+          padding-top: 20px;
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+      }
+  
+      .photo {
+        margin: 10px 25px 10px 25px;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 10px;
+        }
+      }
+  
+      .competence {
+        margin-left: 25px;
+        margin-right: 25px;
+        h4 {
+          font-weight: 600;
+        }
+        div {
+          p {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+

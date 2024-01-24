@@ -1,0 +1,66 @@
+$gris: #444;
+$blanc: #eee;
+$black: #000000;
+$bleu: #0d6efd;
+$titres: #1e1e1e;
+
+main {
+  .image {
+    background-image: url(../image/reseaux.jpg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25vh;
+  }
+
+  section {
+    .services {
+      p {
+        color: $gris;
+      }
+      .barre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .barre_bleu {
+          height: 4px;
+          width: 25%;
+          background-color: #0d6efd;
+        }
+      }
+    }
+    .all_cartes {
+        display: flex;
+        justify-content: space-between;
+    
+      .carte {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        box-shadow: 0px 0px 10px #1e1e1e1c;
+        border-radius: 20px;
+        text-align: justify;
+        background-color: white;
+        
+        
+        h2 {
+          font-weight: 600;
+          font-size: 1.25rem;
+
+        }
+        p {
+          color: $gris;
+        }
+        .icons {
+          text-align: center;
+          padding: 15px;
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}
