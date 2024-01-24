@@ -7,49 +7,15 @@ $black: #000000;
 $bleu: #0d6efd;
 $titres: #1e1e1e;
 body {
-  background-color: $black;
+  font-family: $font-family;
+  main{
+    background-color: $blanc;
+  }
+  
 }
 nav {
   .container-fluid {
     opacity: 0.8;
-  }
-}
-section {
-  .accueil {
-    z-index: -1;
-    background-image: url(../image/page-accueil.jpg);
-    background-position: 35% 75%;
-    background-size: 350% cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-    color: $blanc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .opacity {
-    position: absolute;
-    background-color: rgba($color: #000000, $alpha: 0.3);
-    width: 100%;
-    height: 100%;
-  }
-  h1,
-  h2,
-  a {
-    z-index: 4;
-  }
-  h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  a {
-    margin: 30px;
   }
 }
 
@@ -57,51 +23,10 @@ section {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(250,250,250)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.container {
-  .carte {
-    box-shadow: 5px 5px 10px #1e1e1e3f;
-    margin-left: -25px;
-    margin-right: -25px;
-    .apropos_presentation {
-      .titre_apropos {
-        border-bottom: #0d6efd solid 1px;
-        margin: 25px 25px 10px 25px;
-        h3 {
-          font-weight: 600;
-        }
-      }
 
-      .paragraphe {
-        padding-top: 20px;
-        padding-left: 25px;
-        padding-right: 25px;
-      }
-    }
-
-    .photo {
-      margin: 10px 25px 10px 25px;
-      img {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-      }
-    }
-
-    .competence {
-      margin-left: 25px;
-      margin-right: 25px;
-      h4 {
-        font-weight: 600;
-      }
-      div {
-        p {
-          margin-bottom: 5px;
-        }
-      }
-    }
-  }
+h1,h2,h3,h4{
+  color: $titres;
 }
-
 
 footer{
   .icons{
@@ -117,4 +42,4 @@ footer{
   }
  a{
   text-decoration: none;
-}}
+}} 

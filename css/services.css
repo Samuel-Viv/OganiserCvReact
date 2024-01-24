@@ -1,0 +1,48 @@
+main .image {
+  background-image: url(../image/reseaux.jpg);
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+main section .services p {
+  color: #444;
+}
+main section .services .barre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section .services .barre .barre_bleu {
+  height: 4px;
+  width: 25%;
+  background-color: #0d6efd;
+}
+main section .all_cartes {
+  display: flex;
+  justify-content: space-between;
+}
+main section .all_cartes .carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(30, 30, 30, 0.1098039216);
+  border-radius: 20px;
+  text-align: justify;
+  background-color: white;
+}
+main section .all_cartes .carte h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+main section .all_cartes .carte p {
+  color: #444;
+}
+main section .all_cartes .carte .icons {
+  text-align: center;
+  padding: 15px;
+  font-size: 48px;
+}/*# sourceMappingURL=services.css.map */
