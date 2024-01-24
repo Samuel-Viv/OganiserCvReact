@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- style -->
+    <!-- style  -->
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="stylesheet" href="./css/realisation.css" />
     <link rel="stylesheet" href="./bootstrap/scss/bootstrap.css" />
     <link
       rel="stylesheet"
@@ -38,10 +38,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light active" href="./services.html">service</a>
+                <a class="nav-link text-secondary" href="./services.html">service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="./realisation.html">réalisation</a>
+                <a class="nav-link text-light active" href="#">réalisation</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="#">blog</a>
@@ -56,43 +56,52 @@
     </header>
 
     <main>
-      <div class="image"></div>
+      <div class="image "></div>
+      <section class="py-5">
+        <div class="text-center">
+          <h1 class="text-uppercase">Portfolio</h1>
+          <p>Voici quelques-unes de mes réalisation</p>
+          <div class="barre pb-5"><div class="barre_bleu bg-primary"></div></div>
+        </div>
 
-      <section class="container py-3">
-        <div class=" services">
-          <h1 class="text-uppercase text-center pt-5">mon offre de services</h1>
-          <p class="text-center" style="font-size: 1.25em">
-            Voici les prestation sur lesquelles je peux intervenir.
-          </p>
-          <div class="barre"><div class="barre_bleu bg-primary"></div></div>
-
-          <div class="all_cartes py-5 row">
-            <div class="col-md-3 carte  m-1 p-3">
-              <i class="fa-solid fa-display text-primary icons"></i>
-              <h2 class="text-center text-uppercase">ux design</h2>
-              <p class="text-center">
-                L'<strong>UX Design</strong> est une méthode de conception centré sur l'utilisateur.
-                Son but est d'offrir une expérience de navigation optimal à l'interaute.
-              </p>
+        <div class="realisations container">
+          <div class="row">
+            <div class="col-md-4 py-3">
+              <div class="realisation1  card">
+                <img src="./image/legumes.jpg" class="card-img-top" alt="panier de légumes" />
+                <h2 class="card-title text-center pt-3">Fresh food</h2>
+                <p class="card-text text-center px-5">Réalisation d'un site avec commande en ligne.</p>
+                <div class="bouton">
+                  <a href="#" class="btn btn-outline-primary m-3">Voir</a>
+                </div>
+                <div class="card-footer text-center pt-3"><p>Site réalisé avec du PHP et MySQL</p></div>
+              </div>
             </div>
 
-            <div class="col-md-3 carte m-1 p-3">
-              <i class="fa-solid fa-file-code text-primary icons"></i>
-              <h2 class="text-center text-uppercase">développement web</h2>
-              <p class="text-center">
-                Le<strong> développement de site web</strong> repose sur l'utilisation des langages
-                HTML, CSS, JavaScript et PHP.
-              </p>
+            <div class="col-md-4 py-3">
+              <div class="realisation2  card">
+                <img src="./image/sushi.jpg" class="card-img-top" alt="sushi" />
+                <h2 class="card-title text-center pt-3">Restaurant Akira</h2>
+                <p class="card-text text-center px-5">Réalisation d'un site vitrine.</p>
+                <div class="bouton">
+                  <a href="#" class="btn btn-outline-primary m-3">Voir</a>
+                </div>
+                <div class="card-footer text-center pt-3"><p>Site réalisé avec WordPress</p></div>
+              </div>
             </div>
 
-            <div class="col-md-3 carte m-1 p-3">
-              <i class="fa-solid fa-magnifying-glass-dollar text-primary icons"></i>
-              <h2 class="text-center text-uppercase">référencement</h2>
-              <p class="text-center">
-                Le<strong> référencement naturel d'un site</strong>, aussi appelé SEO, consiste à
-                mettre des techniques en oeuvre pour améliorer sa position dans les résultats des
-                moteurs de recherche.
-              </p>
+            <div class="col-md-4 py-3">
+              <div class="realisation3  card ">
+                <img src="./image//bien-etre.jpg" class="card-img-top" alt="photo bien-être" />
+                <h2 class="card-title text-center pt-3">Fresh food</h2>
+                <p class="card-text text-center px-5">
+                  Réalisation d'un site vitrine pour un praticien de bien-être.
+                </p>
+                <div class="bouton">
+                  <a href="#" class="btn btn-outline-primary m-3">Voir</a>
+                </div>
+                <div class="card-footer text-center pt-3"><p>Site réalisé avec du PHP et MySQL</p></div>
+              </div>
             </div>
           </div>
         </div>
