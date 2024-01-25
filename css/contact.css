@@ -1,0 +1,85 @@
+.image_bg {
+  background-image: url(../image/enveloppe.jpg);
+  z-index: -5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.image_bg .background_bleu {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 105, 255, 0.5);
+  z-index: 0;
+}
+.image_bg .background_bleu .contact {
+  position: relative;
+  z-index: 1;
+  margin-top: 10vh;
+}
+.image_bg .background_bleu .contact .blanc {
+  background-color: #eee;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.image_bg .background_bleu .contact .blanc h1 {
+  font-size: 2rem;
+  color: #1e1e1e;
+}
+.image_bg .background_bleu .contact .blanc p {
+  color: #444;
+  font-size: 1.25rem;
+}
+.image_bg .background_bleu .contact .blanc .barre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image_bg .background_bleu .contact .blanc .barre .barre_bleu {
+  height: 4px;
+  width: 25%;
+  background-color: #0d6efd;
+}
+.image_bg .background_bleu .contact .blanc .formulaire {
+  display: flex;
+  flex-direction: column;
+}
+.image_bg .background_bleu .contact .blanc .formulaire .titre_formulaire h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: start;
+  padding-bottom: 1rem;
+  border-bottom: #0d6efd 2px solid;
+}
+.image_bg .background_bleu .contact .blanc .formulaire .input {
+  border: rgba(68, 68, 68, 0.3137254902) solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.image_bg .background_bleu .contact .blanc .bloc_coordonnees .titre_coordonnees h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: start;
+  padding-bottom: 1rem;
+  border-bottom: #0d6efd 2px solid;
+}
+.image_bg .background_bleu .contact .blanc .bloc_coordonnees .coordonnees .map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.image_bg .background_bleu .contact .blanc .bloc_coordonnees .coordonnees .map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}/*# sourceMappingURL=contact.css.map */
