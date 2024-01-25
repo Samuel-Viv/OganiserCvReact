@@ -1,3 +1,8 @@
+$gris: #444;
+$blanc: #eee;
+$black: #000000;
+$bleu: #0d6efd;
+$titres: #1e1e1e;
 .image {
   background-image: url(../image/reseaux.jpg);
   display: flex;
@@ -20,15 +25,28 @@
   }
 }
 
-.card{display: flex;
-    h2{
-        font-size: 1.5rem;
+section {
+  h1 {
+    font-weight: 600;
+  }
+  p{color:$gris}
+  .card {
+    display: flex;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
     }
-    .bouton{
-        display: flex; 
-        justify-content: center;
-        .btn{
-        width: 100px;
+    p{
+        color: $gris;
     }
+    .bouton {
+      display: flex;
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+      .btn {
+        width: 150px;
+      }
     }
+  }
 }
