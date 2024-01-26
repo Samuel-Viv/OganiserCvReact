@@ -47,6 +47,26 @@
   padding-bottom: 1rem;
   border-bottom: #0d6efd 2px solid;
 }
+.image_bg .background_bleu .contact .blanc .formulaire #error-message {
+  border: solid 1px red;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.162);
+  display: none;
+}
+.image_bg .background_bleu .contact .blanc .formulaire #error-message .text-red {
+  color: red;
+  font-size: small;
+}
+.image_bg .background_bleu .contact .blanc .formulaire #valid-message {
+  border: solid 1px green;
+  border-radius: 5px;
+  background-color: rgba(0, 128, 0, 0.338);
+  display: none;
+}
+.image_bg .background_bleu .contact .blanc .formulaire #valid-message .text-green {
+  color: green;
+  font-size: small;
+}
 .image_bg .background_bleu .contact .blanc .formulaire .input {
   border: rgba(68, 68, 68, 0.3137254902) solid 1px;
   border-radius: 5px;
