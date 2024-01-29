@@ -45,4 +45,8 @@ main section .all_cartes .carte .icons {
   text-align: center;
   padding: 15px;
   font-size: 48px;
+}
+
+.carte:hover .icons {
+  color: #cde1f8 !important;
 }/*# sourceMappingURL=services.css.map */

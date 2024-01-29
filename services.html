@@ -33,12 +33,12 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link text-secondary" aria-current="page" href="./index.html"
-                  >Accueil</a
-                >
+                <a class="nav-link text-secondary" href="./index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light active" href="./services.html">service</a>
+                <a class="nav-link text-light active" aria-current="page" href="./services.html"
+                  >service</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="./realisation.html">réalisation</a>
@@ -58,8 +58,10 @@
     <main>
       <div class="image"></div>
 
+      <i class="fa-solid fa-arrow-up btn btn-primary back-to-top"></i>
+
       <section class="container py-3">
-        <div class=" services">
+        <div class="services">
           <h1 class="text-uppercase text-center pt-5">mon offre de services</h1>
           <p class="text-center" style="font-size: 1.25em">
             Voici les prestation sur lesquelles je peux intervenir.
@@ -67,7 +69,7 @@
           <div class="barre"><div class="barre_bleu bg-primary"></div></div>
 
           <div class="all_cartes py-5 row">
-            <div class="col-md-3 carte  m-1 p-3">
+            <div class="col-md-3 carte m-1 p-3">
               <i class="fa-solid fa-display text-primary icons"></i>
               <h2 class="text-center text-uppercase">ux design</h2>
               <p class="text-center">
@@ -212,5 +214,8 @@
     ></script>
     <!-- script import icones de font awesome -->
     <script src="https://kit.fontawesome.com/b90d24bae1.js" crossorigin="anonymous"></script>
+
+    <!-- script bouton rentour en haut -->
+    <script src="./javaScript/back-to-top.js"></script>
   </body>
 </html>
