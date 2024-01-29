@@ -60,7 +60,15 @@ main {
           padding: 15px;
           font-size: 48px;
         }
+        
       }
     }
   }
+}
+
+.carte:hover{
+  .icons{
+    color: #cde1f8 !important;
+  }
+  
 }
