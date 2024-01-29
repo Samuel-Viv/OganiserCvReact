@@ -1,0 +1,17 @@
+main {
+  margin-top: 10vh;
+}
+main .barre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .barre .barre_bleu {
+  height: 4px;
+  width: 25%;
+  background-color: #0d6efd;
+}
+main .accordion {
+  background-color: white;
+}/*# sourceMappingURL=mentions.css.map */
