@@ -3,17 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="./image/favicon.png">
-    <meta name="description" content="Présentation de quelques articles sur le développement web">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- style  -->
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/blog.css" />
+    <link rel="stylesheet" href="./css/mentions.css" />
     <link rel="stylesheet" href="./bootstrap/scss/bootstrap.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <title>Les blogs</title>
+    <title>Mentions légales</title>
   </head>
   <body>
     <header>
@@ -35,9 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link text-secondary" aria-current="page" href="./index.html"
-                  >Accueil</a
-                >
+                <a class="nav-link text-secondary" href="./index.html">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="./services.html">service</a>
@@ -46,7 +43,7 @@
                 <a class="nav-link text-secondary" href="./realisation.html">réalisation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light active" href="./blog.html">blog</a>
+                <a class="nav-link text-secondary" href="./blog.html">blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-secondary" href="./contact.html">me contacter</a>
@@ -58,134 +55,63 @@
     </header>
 
     <main>
-      <div class="image"></div>
-
       <i class="fa-solid fa-arrow-up btn btn-primary back-to-top"></i>
 
-      <section class="">
-        <div class="text-center p-5">
-          <h1 class="text-uppercase">Blog</h1>
-          <p>Retrouvez ici quelques articles sur le développement web.</p>
+      <section class="pb-4" >
+        <div class="text-center pt-4">
+        
+          <h1 class="text-uppercase  pb-3" id="mentions">Mentions légales</h1>
+
           <div class="barre pb-5"><div class="barre_bleu bg-primary"></div></div>
         </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg-4 py-2">
-              <div class="card" id="blog1">
-                <img src="./image/code.jpg" class="card-img-top" alt="Code HTML" />
-                <h2 class="card-title px-4 pt-3">Coder son site en HTML/CSS</h2>
-                <p class="px-4 py-2">
-                  Some quick example text to build on the card title and make un the bulk of the
-                  card's content.
-                </p>
-                <div class="bouton">
-                  <a href="#" class="btn btn-primary">Lire la suite</a>
-                </div>
-                <div class="card-footer pb-0">
-                  <p>Publié le 22 août 2022</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 py-2">
-              <div class="card" id="blog2">
-                <img
-                  src="./image/money.jpg"
-                  class="card-img-top"
-                  alt="image de vendre ses produits sur le web"
-                />
-                <h2 class="card-title px-4 pt-3">Vendre ses produits sur le web</h2>
-                <p class="px-4 py-2">
-                  Some quick example text to build on the card title and make un the bulk of the
-                  card's content.
-                </p>
-                <div class="bouton">
-                  <a href="#" class="btn btn-primary">Lire la suite</a>
-                </div>
-                <div class="card-footer pb-0">
-                  <p>Publié le 20 août 2022</p>
+        <div class="accordion mx-4 " id="accordions">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Éditeur du site
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h3>John Doe</h3>
+                  <p><i class="fa-solid fa-location-dot"></i> 40 Rue Laure Diebold <br>
+                69009 Lyon, France <br>
+                <i class="fa-solid fa-mobile-screen-button"></i><a href="tel:0620304050" style="text-decoration: none;"> 06 20 30 40 50</a> <br>
+                <i class="fa-solid fa-envelope"></i> <a href="mailto:john.doe@gmail.com" style="text-decoration: none;"> john.doe@gmail.com</a></p>
                 </div>
               </div>
             </div>
-
-            <div class="col-md-6 col-lg-4 py-2">
-              <div class="card" id="blog3">
-                <img src="./image/ordi.jpg" class="card-img-top" alt="Un ordinateur" />
-                <h2 class="card-title px-4 pt-3">Se positionner sur google</h2>
-                <p class="px-4 py-2">
-                  Some quick example text to build on the card title and make un the bulk of the
-                  card's content.
-                </p>
-                <div class="bouton">
-                  <a href="#" class="btn btn-primary">Lire la suite</a>
-                </div>
-                <div class="card-footer pb-0">
-                  <p>Publié le 1 août 2022</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Hébergeur
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h3>Always Data</h3>
+                  <p>91 rue du faubourg Daint Honoré <br>
+                75008 Paris</p>
+                <p><i class="fa-solid fa-globe"></i><a href="https://www.alwaysdata.com/fr/" target="_blank" style="text-decoration: none;"> www.alwaysdata.com</a></p>
                 </div>
               </div>
             </div>
-
-            <div class="col-md-6 col-lg-4 py-2">
-              <div class="card">
-                <img
-                  src="./image/responsive.jpg"
-                  class="card-img-top"
-                  alt="Une table et un ordinateur"
-                />
-                <h2 class="card-title px-4 pt-3">Coder en responsive design</h2>
-                <p class="px-4 py-2">
-                  Some quick example text to build on the card title and make un the bulk of the
-                  card's content.
-                </p>
-                <div class="bouton">
-                  <a href="#" class="btn btn-primary">Lire la suite</a>
-                </div>
-                <div class="card-footer pb-0">
-                  <p>Publié le 31 juillet 2022</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 py-2">
-              <div class="card">
-                <img src="./image/seo.jpg" class="card-img-top" alt="référencement SEO" />
-                <h2 class="card-title px-4 pt-3">Techniques de référencement</h2>
-                <p class="px-4 py-2">
-                  Some quick example text to build on the card title and make un the bulk of the
-                  card's content.
-                </p>
-                <div class="bouton">
-                  <a href="#" class="btn btn-primary">Lire la suite</a>
-                </div>
-                <div class="card-footer pb-0">
-                  <p>Publié le 31 juillet 2022</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4 pt-2 pb-5">
-              <div class="card">
-                <img
-                  src="./image/responsive.jpg"
-                  class="card-img-top"
-                  alt="Une table et un ordinateur"
-                />
-                <h2 class="card-title px-4 pt-3">Coder en responsive design</h2>
-                <p class="px-4 py-2">
-                  Some quick example text to build on the card title and make un the bulk of the
-                  card's content.
-                </p>
-                <div class="bouton">
-                  <a href="#" class="btn btn-primary">Lire la suite</a>
-                </div>
-                <div class="card-footer pb-0">
-                  <p>Publié le 31 juillet 2022</p>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Crédits
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <h3>Crédits</h3>
+                  <p>Site développé par John Doe, étudiant du CEF.</p>
+                  <p>Les images libres de droit sont issues du site <a href="https://www.pixabay.com" target="_blank" style="text-decoration: none;">Pixabay</a></p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
       </section>
     </main>
 
@@ -239,7 +165,7 @@
             </div>
 
             <div class="lien_mentions">
-              <a class="icon-link" style="color: black" href="./mentions.html"
+              <a class="icon-link" style="color: black" href="#"
                 ><i class="bi bi-chevron-right text-primary"></i>Mentions légales</a
               >
             </div>

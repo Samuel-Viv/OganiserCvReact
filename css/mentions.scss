@@ -1,0 +1,24 @@
+$gris: #444;
+$blanc: #eee;
+$black: #000000;
+$bleu: #0d6efd;
+$titres: #1e1e1e;
+
+main {
+  margin-top: 10vh;
+  .barre {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    .barre_bleu {
+      height: 4px;
+      width: 25%;
+      background-color: $bleu;
+    }
+  }
+  .accordion{
+    background-color: white;
+    
+}
+}
