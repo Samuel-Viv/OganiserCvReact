@@ -47,6 +47,12 @@ h5 {
 }
 
 footer {
+  address{
+    .name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    }
+  }
   .icons {
     display: flex;
     gap: 1rem;

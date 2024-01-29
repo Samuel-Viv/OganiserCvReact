@@ -40,6 +40,10 @@ h5 {
   background-color: #298eff !important;
 }
 
+footer address .name {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
 footer .icons {
   display: flex;
   gap: 1rem;
